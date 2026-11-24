@@ -1,0 +1,12 @@
+[Intro]
+[ch]C[/ch] [ch]Am[/ch] [ch]C[/ch] [ch]Am[/ch]
+
+[Verse 1]
+[tab]  [ch]C[/ch]                 [ch]Am[/ch]
+Erste Zeile eines erfundenen Liedes[/tab]
+[tab]     [ch]F[/ch]          [ch]G[/ch]          [ch]C[/ch]
+Zweite Zeile, die auch nichts bedeutet[/tab]
+
+[Chorus]
+[tab][ch]F[/ch]              [ch]G[/ch]                [ch]C[/ch]          [ch]Am[/ch]
+Ein Refrain, der viel zu lang ist für eine einzige Zeile auf dem kleinen Bildschirm[/tab]

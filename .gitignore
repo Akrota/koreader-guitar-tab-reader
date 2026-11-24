@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+*.zip
+crash.log
+# personal settings of the owner (shortcut link with address and key)
+personal.lua
+# private test material (a PDF from the Ultimate Guitar app)
+test tabs/
+tests/preview/
