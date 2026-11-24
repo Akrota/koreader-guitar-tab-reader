@@ -2,9 +2,25 @@
 
 *Deutsch: [README.de.md](README.de.md)*
 
+<!-- byline -->
+A plugin by **Akrota and Claude**.
+
+<!-- lang-note -->
+*Works in **English and German**: menus and texts follow KOReader's language. A German description is at the bottom of this page.*
+
 Guitar tabs and chord sheets on your e-reader, laid out for e-ink. Put the e-reader on the music stand: a large, calm screen, no phone needed.
 
 > **Status: 0.7.0.** All automated tests pass in KOReader on macOS and Linux (at the size of a Kobo Libra Colour). Tested on a Kobo Libra Colour, including the Ultimate Guitar search.
+
+## Screenshots
+
+*The screenshots show the English interface; in a German KOReader the texts are German.*
+
+<table>
+<tr><td align="center" valign="top" width="33%"><img src="docs/screenshots/library.png" width="260" alt="Library list"><br><sub>Library list</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/chordpro-tab.png" width="260" alt="ChordPro tab with chord diagram row"><br><sub>ChordPro tab with chord diagram row</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/chord-diagram.png" width="260" alt="A tapped chord as a large diagram"><br><sub>A tapped chord as a large diagram</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><img src="docs/screenshots/ascii-tab.png" width="260" alt="ASCII tab with chords above the lyrics"><br><sub>ASCII tab with chords above the lyrics</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/viewer-menu.png" width="260" alt="Viewer menu: font size, transpose, tab size, chord diagrams, auto page turn"><br><sub>Viewer menu: font size, transpose, tab size, chord diagrams, auto page turn</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/setlist.png" width="260" alt="A setlist"><br><sub>A setlist</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><img src="docs/screenshots/library-menu.png" width="260" alt="Library menu: setlists, add tab from phone, select and delete"><br><sub>Library menu: setlists, add tab from phone, select and delete</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/how-it-works.png" width="260" alt="Help text"><br><sub>Help text</sub></td></tr>
+</table>
 
 ## Features
 
@@ -51,6 +67,40 @@ The code was written entirely by **Claude**, an AI by Anthropic (in Claude Code)
 
 There is no warranty and no guaranteed support. Bug reports are welcome as [issues](../../issues). Please attach `crash.log` from the KOReader folder.
 
+## More plugins by Akrota and Claude
+
+- [Comic Display](https://github.com/Akrota/koreader-comic-display): Refresh against ghosting, dark borders and a clock for comics
+- [Levels / Tonwerte](https://github.com/Akrota/koreader-comic-levels): Tone curve for comics
+- [Comic Panel Zoom](https://github.com/Akrota/koreader-comic-panel-zoom): Panel-by-panel view (fork of JorgeTheFox's plugin)
+- [Comic Dual Page](https://github.com/Akrota/koreader-comic-dual-page): Double pages with detection (fork of KORComic)
+- [CBZ Converter](https://github.com/Akrota/koreader-cbz-converter): Convert comics, PDF and EPUB to CBZ on the device
+- [Folder to series](https://github.com/Akrota/koreader-folder-to-series): Comic folders to series with volume numbers
+- [Drive Library](https://github.com/Akrota/koreader-drive-library): Google Drive as a cloud library
+- [Story Recall](https://github.com/Akrota/koreader-story-recall): Spoiler-free AI recap for books
+- [Wi-Fi while charging](https://github.com/Akrota/koreader-wifi-while-charging): Keep Wi-Fi on while charging
+- [Zen page browser gesture](https://github.com/Akrota/koreader-zen-page-browser-gesture): Gesture for the ZenOS page browser
+
 ## License
 
 MIT, see [LICENSE](LICENSE).
+
+---
+
+## Deutsch (Kurzbeschreibung)
+
+Gitarren-Tabs und Chords auf dem E-Reader, aufbereitet für E-Ink. Den E-Reader auf den Notenständer stellen: großer, ruhiger Bildschirm, kein Handy nötig.
+
+> **Stand: 0.7.0.** Alle automatischen Tests laufen in KOReader unter macOS und Linux (in der Größe eines Kobo Libra Colour). Auf einem Kobo Libra Colour getestet, auch die Ultimate-Guitar-Suche.
+
+### Was es kann
+
+- **Bibliothek:** alle Tabs im Tab-Ordner (`GuitarTabs`) und seinen Unterordnern, zuletzt gespielte zuerst. Neue Dateien erscheinen automatisch.
+- **Formate:** Text-Tabs (`.txt`, `.tab`), ChordPro (`.cho`, `.chopro`, `.chordpro`, `.pro`, `.crd`), das Ultimate-Guitar-Format (`[ch]`, `[tab]`) und **PDFs aus der Ultimate-Guitar-App**: Der Text wird mit seinen Positionen gelesen und neu gesetzt. Andere PDFs erscheinen als einfacher Text.
+- **Darstellung wie ein gedrucktes Tab-Blatt:** Kopf mit Titel, Interpret, Stimmung, Capo und Tonart, oben die Chord-Diagramme, darunter der Song in Festbreitenschrift mit fetten Chords über der richtigen Silbe. Tabs werden nie mitten in der Zeile umgebrochen, zu breite Tabs werden an Taktstrichen geteilt.
+- **Lesen:** Blättern per Tippen, Wischen oder Blättertasten. Schriftgröße pro Tab, „Als Standard setzen“ und „Auf Standard zurücksetzen“, drei Tab-Größen (nur verkleinern / an Breite anpassen / wie Text).
+- **Chords:** Einen Chord antippen zeigt sein Griffbild. Transponieren ♭−1 / ♯+1 (Chords, Tonart und Diagramme ändern sich, Tab-Zahlen nicht).
+- **Automatisch blättern** (Sekunden pro Seite).
+- **Setlisten:** beliebig viele. Tab gedrückt halten → „Zu einer Setlist hinzufügen“. Zu finden unter Bibliothek ☰ → „Setlisten“. Spielt man aus einer Setlist, steht auf der letzten Seite der nächste Song, und Weiterblättern öffnet ihn.
+- **Tabs löschen:** Tab gedrückt halten → „Löschen“, oder „Mehrere auswählen …“, Tabs abhaken und zusammen löschen. Vorher kommt immer eine Rückfrage.
+
+Die ausführliche deutsche Anleitung steht in der [README.de.md](README.de.md).
