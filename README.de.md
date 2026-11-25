@@ -2,9 +2,6 @@
 
 *English: [README.md](README.md)*
 
-<!-- byline -->
-Ein Plugin von **Akrota und Claude**.
-
 <!-- lang-note -->
 *Funktioniert auf **Deutsch und Englisch**: Menüs und Texte richten sich nach der KOReader-Sprache.*
 
@@ -67,7 +64,7 @@ Den Code hat vollständig **Claude** geschrieben, eine KI von Anthropic (in Clau
 
 Keine Gewährleistung und kein garantierter Support. Fehlermeldungen gern als [Issue](../../issues). Bitte `crash.log` aus dem KOReader-Ordner anhängen.
 
-## Weitere Plugins von Akrota und Claude
+## Weitere Plugins
 
 - [Comic Display](https://github.com/Akrota/koreader-comic-display): Refresh gegen Ghosting, dunkle Ränder und Uhr für Comics
 - [Levels / Tonwerte](https://github.com/Akrota/koreader-comic-levels): Tonwertkurve für Comics
